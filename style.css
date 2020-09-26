@@ -43,3 +43,49 @@
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
 }
+
+.txt {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  color: #111111;
+}
+
+.txt2 {
+  margin-bottom: 8px;
+  font-size: 48px;
+  line-height: 0.833333;
+  color: #111111;
+  font-weight: 1000;
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: #767575;
+}
+@media (min-width: 992px) {
+  .cart1 {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.cart1 {
+  font-size: 24px !important;
+  margin-right: 15px;
+}
