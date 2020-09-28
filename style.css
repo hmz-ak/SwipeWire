@@ -5,6 +5,7 @@
 #itm {
   margin-right: 20px;
   color: black;
+  letter-spacing: 2px;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -20,6 +21,10 @@
 .navbar-light .navbar-brand:hover {
   transform: scale(1.1);
   color: #767575;
+}
+
+.navbar-brand {
+  font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -97,11 +102,21 @@ a:hover {
     position: absolute;
     right: 0;
     margin-right: 59px;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
   }
 }
 
 .heart1 {
   font-size: 24px !important;
-  margin-left: 210px;
 }
+/* @media (min-width: 992px) {
+  .searchbar {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+.searchbar {
+  border-radius: 20px;
+  margin-top: 30px;
+} */
