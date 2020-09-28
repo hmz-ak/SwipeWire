@@ -59,7 +59,11 @@
   font-weight: 1000;
 }
 
-.btn {
+a {
+  color: inherit;
+}
+
+.btn3 {
   background-color: #ddd;
   border: none;
   color: black;
@@ -71,12 +75,10 @@
   cursor: pointer;
   border-radius: 16px;
 }
-a {
-  color: inherit;
-}
 a:hover {
   color: #767575;
 }
+
 @media (min-width: 992px) {
   .cart1 {
     position: absolute;
@@ -88,4 +90,18 @@ a:hover {
 .cart1 {
   font-size: 24px !important;
   margin-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .heart1 {
+    position: absolute;
+    right: 0;
+    margin-right: 59px;
+    transform: translateY(-60%);
+  }
+}
+
+.heart1 {
+  font-size: 24px !important;
+  margin-left: 210px;
 }
