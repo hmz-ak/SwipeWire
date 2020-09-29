@@ -217,6 +217,21 @@ a:hover {
   position: absolute;
 }
 
+.txtstyle {
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+}
+.txtstyle:hover {
+  transform: scaleY(1.2);
+}
+
+.drk {
+  background-color: #000000;
+}
+
+.faicons {
+  color: white;
+}
 @media (min-width: 992px) {
   .cart1 {
     position: absolute;
