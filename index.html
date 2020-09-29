@@ -23,7 +23,32 @@
     <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.css" />
   </head>
   <body>
-    <div class="jumbotron jumb"></div>
+    <div class="jumbotron jumb">
+      <a
+        class="signin"
+        data-toggle="modal"
+        data-target="#loginModal"
+        id="anchor"
+        href="#"
+        >Sign In</a
+      >
+      <a
+        class="signin1"
+        data-toggle="modal"
+        data-target="#joinUsModal"
+        id="anchor"
+        href="#"
+        >Join Us</a
+      >
+      <a
+        class="signin1"
+        data-target="#helpModal"
+        data-toggle="modal"
+        id="anchor"
+        href="#"
+        >Help</a
+      >
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light smart-scroll p-2">
       <a class="navbar-brand ml-2" href="#">SwipeWire</a>
       <a href="#" class="ml-auto"
@@ -204,6 +229,194 @@
       </div>
     </div>
 
+    <!--Login Modal-->
+    <div class="modal fade" id="loginModal" role="dialog">
+      <div class="modal-dialog model-lg" role="content">
+        <!--Model Content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="col-sm-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label"> Remember me </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm ml-auto"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Join Us Modal-->
+    <div class="modal fade" id="joinUsModal" role="dialog">
+      <div class="modal-dialog model-lg" role="content">
+        <!--Model Content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Join Us</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword4"
+                    >Retype Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword4"
+                    placeholder="Retype Password"
+                  />
+                </div>
+                <div class="col-sm-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label"> Remember me </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm ml-auto"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                  Sign Up
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Help Modal-->
+    <!-- Button trigger modal -->
+
+    <div
+      class="modal fade"
+      id="helpModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            ab numquam molestiae repellat cupiditate quisquam aspernatur ea
+            provident eaque vitae obcaecati commodi, magnam facilis, dignissimos
+            quaerat tenetur sapiente, sed in. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Animi, tempore aperiam velit similique
+            nostrum consequuntur eaque voluptates! Ea, itaque? Placeat officiis
+            quasi architecto eius sit iure accusamus exercitationem alias animi?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            aliquid natus architecto tempore voluptates accusamus reprehenderit
+            incidunt porro consequuntur eos possimus, quos corrupti cum impedit
+            aut fugit nihil veritatis. Voluptatum! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Exercitationem, sapiente molestiae.
+            Tenetur minus molestiae consequuntur nobis laborum dolor ea quae?
+            Maxime omnis tempore iure esse delectus rerum neque odit officiis.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem a ad
+            et in ipsa pariatur, obcaecati non incidunt repellat repellendus
+            error repudiandae? Debitis fugit consequatur nemo assumenda deserunt
+            voluptatum architecto!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
