@@ -155,26 +155,9 @@ a:hover {
   color: #767575;
 }
 
-@media (min-width: 992px) {
-  .cart1 {
-    position: absolute;
-    right: 0;
-    transform: translateY(-50%);
-  }
-}
-
 .cart1 {
   font-size: 24px !important;
   margin-right: 15px;
-}
-
-@media (min-width: 992px) {
-  .heart1 {
-    position: absolute;
-    right: 0;
-    margin-right: 59px;
-    transform: translateY(-50%);
-  }
 }
 
 .heart1 {
@@ -202,6 +185,53 @@ a:hover {
 
 .anc1:hover {
   display: block;
+}
+
+/* @media screen and (min-width: 700px) {
+  .theImg {
+    width: 560px;
+    height: 540px;
+  }
+} */
+
+#cf {
+  position: relative;
+
+  margin: 0 auto;
+}
+
+#cf img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity: 0;
+}
+
+.btn5 {
+  position: absolute;
+}
+
+@media (min-width: 992px) {
+  .cart1 {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 992px) {
+  .heart1 {
+    position: absolute;
+    right: 0;
+    margin-right: 59px;
+    transform: translateY(-50%);
+  }
 }
 
 @media screen and (min-width: 601px) {
@@ -243,33 +273,19 @@ a:hover {
     font-weight: 600;
   }
 }
-
-/* @media screen and (min-width: 700px) {
-  .theImg {
-    width: 560px;
-    height: 540px;
+@media screen and (max-width: 590px) {
+  .btmMarg {
+    margin-top: 350px;
   }
-} */
-
-#cf {
-  position: relative;
-
-  margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+  .btmMarg2 {
+    margin-top: 350px;
+  }
 }
 
-#cf img {
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#cf img.top:hover {
-  opacity: 0;
-}
-
-.btn5 {
-  position: absolute;
+@media screen and (min-width: 699px) {
+  .btmMarg2 {
+    margin-top: 800px;
+  }
 }
